@@ -1,0 +1,21 @@
+{
+  "name": "note-service",
+  "version": "1.0.0",
+  "description": "Notes service for the microservices gateway MVP",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.2",
+    "express": "^4.21.2",
+    "express-validator": "^7.1.0",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.11.0",
+    "winston": "^3.19.0"
+  }
+}
